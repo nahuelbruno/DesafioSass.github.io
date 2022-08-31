@@ -1,0 +1,85 @@
+body {
+  background-image: url("../images/fondo-banner-humo-purpura-estetico_53876-129044.png");
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto; }
+
+.caja {
+  grid-column: 1/4; }
+  .caja header {
+    border-style: solid;
+    margin: 0%;
+    background-color: #f6ccd0;
+    width: 100%;
+    height: auto; }
+    .caja header img {
+      margin: 10px;
+      float: left;
+      width: 100px;
+      height: 100px; }
+    .caja header h1 {
+      font-weight: 600;
+      font-family: 'Indie Flower';
+      text-align: center;
+      font-size: 30px;
+      padding: 20px;
+      transition: 2s; }
+      .caja header h1:hover {
+        font-size: 50px;
+        padding: 35px; }
+    .caja header nav {
+      background-color: #f6ccd0;
+      display: flex;
+      justify-content: right; }
+      .caja header nav ul {
+        background-color: #f6ccd0; }
+        .caja header nav ul li {
+          list-style: none;
+          padding: auto;
+          display: inline; }
+          .caja header nav ul li a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: 600;
+            margin: 2px;
+            font-size: 20px;
+            font-family: 'Indie Flower'; }
+            .caja header nav ul li a:hover {
+              color: #ffffff; }
+
+main .caja2 {
+  grid-column: 1/4; }
+  main .caja2 h2 {
+    margin: 25px;
+    font-style: oblique;
+    text-align: center; }
+
+main .caja3 {
+  grid-column: 1/4; }
+  main .caja3 p {
+    margin: 8px; }
+
+main .caja4 {
+  grid-column: 1/4;
+  text-align: center; }
+  main .caja4 img {
+    width: 250px;
+    margin: 10px; }
+
+main .caja5 {
+  grid-column: 1/4; }
+  main .caja5 p {
+    margin: 8px; }
+  main .caja5 p {
+    margin: 8px; }
+
+.caja6 {
+  grid-column: 1/4; }
+  .caja6 footer {
+    background-color: #f6ccd0;
+    border: #000000 solid; }
+  .caja6 p {
+    color: #000000;
+    font-family: "Indie Flower";
+    text-align: center; }
